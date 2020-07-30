@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &795270207771770204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 795270207771770178}
+  - component: {fileID: 795270207771770179}
+  - component: {fileID: 795270207771770177}
+  - component: {fileID: 795270207771770176}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &795270207771770178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795270207771770204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &795270207771770179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795270207771770204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94875f081914e0e40b085ef95d51357b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - enemyPrefab: {fileID: 8939834535444219237, guid: 0b96c67872473f64abbccb1eeb27a64c,
+      type: 3}
+    count: 20
+    rate: 0.5
+  - enemyPrefab: {fileID: 2138531903678427837, guid: 5274d56fcde65d748a400d78f8327e07,
+      type: 3}
+    count: 3
+    rate: 0.3
+  - enemyPrefab: {fileID: 7429697850661622343, guid: 7a4daa441585729499650a2b72c16643,
+      type: 3}
+    count: 6
+    rate: 0.2
+  - enemyPrefab: {fileID: 8192844918351089634, guid: a92ba974cbf4d74489d1619d7c0b5adf,
+      type: 3}
+    count: 10
+    rate: 0.2
+  START: {fileID: 0}
+  waveRate: 3
+--- !u!114 &795270207771770177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795270207771770204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6401d8417bdb2478b716da826864dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laserTurretData:
+    turretPrefab: {fileID: 1365960524094568, guid: c2445d10b378b3c47b28bee9f0954f0b,
+      type: 3}
+    cost: 70
+    turretUpgradedPrefab: {fileID: 1817140564215066, guid: bd8e64b1cd15abd44b63efc162d8f10d,
+      type: 3}
+    costUpgraded: 50
+  standardTurretData:
+    turretPrefab: {fileID: 1151235189815348, guid: 8ee21ca7ae2f0a645ab5468b78a58125,
+      type: 3}
+    cost: 90
+    turretUpgradedPrefab: {fileID: 1428831441819476, guid: 0df1001f9753ae044aec53585c02fb41,
+      type: 3}
+    costUpgraded: 70
+  moneyText: {fileID: 0}
+  moneyAnimator: {fileID: 0}
+  upgradeCanvas: {fileID: 0}
+  buttonUpgrad: {fileID: 0}
+--- !u!114 &795270207771770176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795270207771770204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4723e019ccd07a43888a42dee37165c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endUI: {fileID: 0}
+  endMessage: {fileID: 0}

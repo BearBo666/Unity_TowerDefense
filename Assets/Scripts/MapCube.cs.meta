@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d3e1bed7bb4d78f46abbae7b9bdf590c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - turretGo: {instanceID: 0}
+  - buildEffect: {fileID: 6963429418497918735, guid: 6e32c0e3f64221540ab0e660ed699c2e,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
