@@ -121,7 +121,7 @@
                     "remoteFeatureImage":"2019.3.15/ChinaFeature.YunHanShu.png",
                     "documentURL":"",
                     "supportedTargets":"All Platforms",
-                    "packageId":"com.unity.tcb",
+                    "packageId":"com.unity.cloudbase",
                     "packageInstallTip":"（或在Package Manager中安装）",
                     "linkButtonArray":[
                         "<color=#29b5c4ff>详情页面</color>",

@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     //速度和标记点数组及其下标
     public float speed = 10;
     private Transform[] positions;
+    [SerializeField]
     private int index = 0;
     //当前生命,总的生命,以及血条和死亡时的粒子特效
     public float hp = 150;

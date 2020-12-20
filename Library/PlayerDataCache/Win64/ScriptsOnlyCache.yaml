@@ -58,8 +58,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -69,23 +67,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11148}
+      Script: {instanceID: 11152}
     - Class: 114
-      Script: {instanceID: 11166}
+      Script: {instanceID: 11170}
     - Class: 114
-      Script: {instanceID: 11328}
+      Script: {instanceID: 11332}
     - Class: 114
-      Script: {instanceID: 11598}
+      Script: {instanceID: 11602}
     - Class: 114
-      Script: {instanceID: 11754}
+      Script: {instanceID: 11758}
     - Class: 114
-      Script: {instanceID: 11988}
+      Script: {instanceID: 11992}
     - Class: 114
-      Script: {instanceID: 12622}
+      Script: {instanceID: 12626}
     - Class: 114
-      Script: {instanceID: 12786}
+      Script: {instanceID: 12790}
     - Class: 114
-      Script: {instanceID: 12974}
+      Script: {instanceID: 12978}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -146,43 +144,43 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11146}
+      Script: {instanceID: 11150}
     - Class: 114
-      Script: {instanceID: 11148}
+      Script: {instanceID: 11152}
     - Class: 114
-      Script: {instanceID: 11166}
+      Script: {instanceID: 11170}
     - Class: 114
-      Script: {instanceID: 11266}
+      Script: {instanceID: 11270}
     - Class: 114
-      Script: {instanceID: 11312}
+      Script: {instanceID: 11316}
     - Class: 114
-      Script: {instanceID: 11328}
+      Script: {instanceID: 11332}
     - Class: 114
-      Script: {instanceID: 11368}
+      Script: {instanceID: 11372}
     - Class: 114
-      Script: {instanceID: 11620}
+      Script: {instanceID: 11624}
     - Class: 114
-      Script: {instanceID: 11754}
+      Script: {instanceID: 11758}
     - Class: 114
-      Script: {instanceID: 11988}
+      Script: {instanceID: 11992}
     - Class: 114
-      Script: {instanceID: 12048}
+      Script: {instanceID: 12052}
     - Class: 114
-      Script: {instanceID: 12072}
+      Script: {instanceID: 12076}
     - Class: 114
-      Script: {instanceID: 12176}
+      Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 12622}
+      Script: {instanceID: 12626}
     - Class: 114
-      Script: {instanceID: 12786}
+      Script: {instanceID: 12790}
     - Class: 114
-      Script: {instanceID: 12928}
+      Script: {instanceID: 12932}
     - Class: 114
-      Script: {instanceID: 12974}
+      Script: {instanceID: 12978}
     - Class: 114
-      Script: {instanceID: 12988}
+      Script: {instanceID: 12992}
     - Class: 114
-      Script: {instanceID: 13018}
+      Script: {instanceID: 13022}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -382,7 +380,7 @@ ScriptsOnlyBuild:
     className: GameMenu
   - hash:
       serializedVersion: 2
-      Hash: 8886ac71ac2c8db57686279babdabcc1
+      Hash: 4e88b483b3e8ba409ab5bd49bfbf3783
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enemy
@@ -696,4 +694,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/MainScene.unity
-  playerPath: "C:/Users/PengYuYan/Desktop/\u5854\u9632.exe"
+  playerPath: "F:/Unity\u5B66\u4E60/Projects/\u5854\u9632/\u5854\u9632.exe"
